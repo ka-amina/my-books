@@ -1,0 +1,78 @@
+
+.card-container {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .card-header {
+    height: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    padding-bottom: 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+ .card-content p {
+    margin-bottom: 10px; /* Add space between paragraphs */
+  }
+
+.Update-button {
+    background-color: #677fc4 ;
+    color: black;
+    border: 2px solid #677fc4;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 1cm; 
+}
+
+.Update-button:hover {
+    background-color: #677fc4;
+    color: white;
+}
+
+.Delete-button {
+    background-color: rgb(242, 100, 100) ;
+    color: black;
+    border: 2px solid rgb(242, 100, 100);
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Delete-button:hover {
+    background-color: rgb(242, 100, 100);
+    color: white;
+}
+
+.back-button{
+    background-color: darkgray;
+    color: black;
+    border: 2px solid darkgray;
+    padding: 2px 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 1cm; 
+}
+
+.back-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+
+
+

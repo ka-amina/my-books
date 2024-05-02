@@ -1,0 +1,65 @@
+input[type="text"] ,
+input[type="number"],
+input[type="date"]
+
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input {
+    width: 100%; 
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+}
+
+
+.Save-button {
+    background-color: #45a049 ;
+    color: black;
+    border: 2px solid #45a049;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Save-button:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.Go-back-button{
+    background-color: darkgray;
+    color: black;
+    border: 2px solid darkgray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Go-back-button:hover {
+    background-color: gray;
+    color: white;
+}
